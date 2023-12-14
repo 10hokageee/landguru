@@ -1,0 +1,28 @@
+body {
+  color: $text-cl;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.container {
+ max-width: 1280px;
+ padding: 0 15px;
+ margin: 0 auto;
+}
+
+.subtitle {
+  color: #244886;
+  @extend %dm-700;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+}
+
+.title {
+  color: #0F2137;
+  @extend %dm-700;
+  font-size: 36px;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+}
